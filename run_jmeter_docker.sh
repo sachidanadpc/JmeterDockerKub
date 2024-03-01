@@ -2,7 +2,7 @@
 # Script to run JMeter tests locally with Docker
 
 # Specify the path to your JMeter test plan file
-TEST_PLAN_PATH="/path/to/your/testplan.jmx"
+TEST_PLAN_PATH="/tests/scripts/testplan.jmx"
 
 # Check if the test plan file exists
 if [ ! -f "$TEST_PLAN_PATH" ]; then
